@@ -51,5 +51,6 @@ class ATG:
 if __name__ == "__main__":
     test = ATG()
     test.test_LoginWithRightCredential()
+    #clear popups now
     input('Y/N')
     test.test_PostImageFromCamera()
